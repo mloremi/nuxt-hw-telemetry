@@ -1,5 +1,8 @@
 <template>
   <div>
+    <header>
+      <h2>Hardware Telemetry!</h2>
+    </header>
     <Nuxt />
   </div>
 </template>
@@ -22,6 +25,18 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+}
+
+header { 
+  height: 90px;
+  border-bottom: 1px solid #eaecef;
+  color: #3b8070;
+}
+
+header h2 {
+  line-height: 90px;
+  margin: 0;
+  text-align: center;
 }
 
 *,
